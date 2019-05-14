@@ -1,6 +1,6 @@
 ### **PageRank on the DBLP dataset using Spark**
 
-####Installation requirements:
+#### Installation requirements:
 
 1) Spark 2.4.x
 
@@ -17,7 +17,7 @@ I installed hadoop and spark on windows and thus, did not need cloudera or horto
 The algorithm is modified from the implementation at 
   `https://github.com/abbas-taher/pagerank-example-spark2.0-deep-dive/blob/master/SparkPageRank.scala`
 
-####How to run:
+#### How to run:
 
 1)Get the **dblp.xml** and **dblp.dtd** file from https://dblp.uni-trier.de/. Place both in same folder.
 
@@ -46,7 +46,7 @@ The algorithm is modified from the implementation at
 
 Tests can be run using `sbt clean compile test`
 
-#####Output Format:
+##### Output Format:
 The output generated will be of the form
 
 >  (University of Paris-Sud, Orsay, France,0.8154981739701659)
