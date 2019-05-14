@@ -26,7 +26,12 @@ The algorithm is modified from the implementation at
 
 3)Method 1: Without jar
 
-    1) `sbt run <input-file-location> <output-file-location>` in terminal(cmd or in Intellij). Use absolute paths and '\\' instead of '\'(Windows). If running using Intellij, add the argument -Xmx6000m in Run-> Edit Configuration-> VM Options
+    1) `sbt run <input-file-location> <output-file-location>` in terminal(cmd or in Intellij). 
+    
+    Use absolute paths and '\\' instead of '\'(Windows). 
+    
+    If running using Intellij, add the argument -Xmx6000m in Run-> Edit Configuration-> VM Options
+    
     This increases memory allocation to the VM.
   
   Method 2: Using jar
