@@ -50,9 +50,15 @@ Tests can be run using `sbt clean compile test`
 The output generated will be of the form
 
 >  (University of Paris-Sud, Orsay, France,0.8154981739701659)
+
 >  (Elena,0.9850243302878131)
+
 >  (John Bell,1.4621033282930214)
+
 >  (University of Nice Sophia Antipolis, France,0.5678480111313514)
+
 >  (Joseph Fourier University, Grenoble, France,0.8154981739701659)
+
 >  (Elena Zheleva,1.3690036520596678)
+
 >  (Acta Inf.,0.9850243302878131)
